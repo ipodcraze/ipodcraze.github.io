@@ -1,0 +1,35 @@
+baseURL = "https://ipodcraze.github.io/"
+languageCode = "en-us"
+title = "Mingding Wang"
+theme = "hugo-resume"
+
+[params]
+    firstName = "Mingding"
+    lastName = "Wang"
+    address = "Lafayette, IN"
+    contactNote = "Dedicated pharmaceutical scientist"
+    profileImage = "img/Profile.png"
+    email = "wang1958@purdue.edu"
+    description = "Dedicated pharmaceutical scientistsad"
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+    showAwards = true
+    showQr = true
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/mingding-wang-0b88198b/"
+
+[[params.handles]]
+    name = "Lab"
+    link = "https://www.chem.purdue.edu/low/low.html"
+    icon = "flask"
+    
+[params.google.analytics]
+    trackerID = ""

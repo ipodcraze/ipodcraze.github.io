@@ -1,0 +1,27 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(blogdown)
+```
+
+```{r}
+install_hugo(force = TRUE)
+```
+
+
+```{r}
+new_site()
+```
+
+```{r}
+install_theme("eddiewebb/hugo-resume", theme_example = TRUE, update_config = TRUE)
+```
+
+```{r}
+serve_site() 
+```
+
